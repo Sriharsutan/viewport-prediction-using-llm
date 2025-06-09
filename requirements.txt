@@ -1,0 +1,11 @@
+torch>=2.0.0
+transformers>=4.36.0
+peft>=0.8.2
+sentencepiece
+protobuf==3.20.3
+accelerate
+scipy
+numpy
+pandas
+scikit-learn
+tqdm
