@@ -1,0 +1,21 @@
+# Core
+torch==2.2.2
+transformers==4.41.2
+datasets
+peft==0.11.1
+accelerate==0.30.1
+scipy
+numpy
+pandas
+scikit-learn
+
+# CPU-only LLM inference
+#bitsandbytes-cpu==0.41.1.post2  # Optional, only if quantized models are used (CPU support)
+
+# Hugging Face utilities
+huggingface_hub
+sentencepiece  # Required for LLaMA/OPT tokenizers
+einops
+
+# Local file handling
+tqdm
